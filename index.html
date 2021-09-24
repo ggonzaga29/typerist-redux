@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="themes/default/default.css">
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="img/favicon-32x32.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<script src="js/main.js" defer></script>
+		<title>Typerist</title>
+	</head>
+	<body class="">
+		<div class="wrapper">
+			<!-- CONTENT WRAPPER -->
+			<nav class="nav">
+				<div class="title-wrapper">
+					<h1 class="title"><a href="/">Typerist</a></h1>
+				</div>
+				<div class="theme-wrapper">
+					<p href="#" class="theme-btn">
+						<span>Themes</span
+						><svg
+							class="theme-icon"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+							></path>
+						</svg>
+					</p>
+				</div>
+			</nav>
+			<div class="stats-wrapper">
+				<div class="max-word-wrapper">
+					<ul class="max-word-list text-correct"></ul>
+				</div>
+
+				<div class="wpm-acc text-correct animate__animated">
+					<ul>
+						<li class="wpm">
+							WPM <span class="wpm-text text-main">00</span>
+						</li>
+						<li class="acc">
+							ACC <span class="acc-text text-main">00</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="quote-wrapper">
+                <p class="quote" id="quote"></p>
+                <div class="lds-dual-ring"></div>
+			</div>
+			<div class="input-wrapper">
+				<!-- <input class="word-input" id="word-input" autocomplete="off" /> -->
+				<span class="input-group">
+					<input
+						class="word-input"
+						id="word-input"
+						autocomplete="off"
+					/>
+					<!-- <span class="highlight"></span>
+					<span class="bar"></span> -->
+				</span>
+				<button class="restart-button" id="restart">
+					<span class="restart-button-content">
+						<svg
+							class="restart-icon"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+							></path>
+						</svg>
+						<!-- <span>Refresh</span> -->
+					</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="close">
+			<svg
+				class="close-icon"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M6 18L18 6M6 6l12 12"
+				></path>
+            </svg>
+		</div>
+		<div class="theme-select">
+		</div>
+	</body>
+</html>

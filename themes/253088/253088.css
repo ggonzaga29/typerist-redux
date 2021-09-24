@@ -1,0 +1,9 @@
+:root {
+	--theme-bg-color: #214151;
+	--theme-text-color: #eff7e1;
+	--theme-text-correct: #355765;
+	--theme-text-wrong: #f8dc81;
+	--theme-text-next: #a2d0c1;
+	--theme-text-wrong-opacity-60: rgba(248, 220, 129, 0.6);
+	--theme-text-correct-opacity-60: rgba(53, 87, 101, 0.6);
+}
